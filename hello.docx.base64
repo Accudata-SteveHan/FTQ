@@ -1,0 +1,10 @@
+# hello.docx.base64
+# 注意：本檔示範如何放置 base64 內容。請在此替換為真正的 Word (.docx) 的 Base64 編碼資料（不含多餘註解）。
+# 產生 base64 的參考指令（在本機或 CI runner 上執行）：
+#  - 使用 pandoc（先安裝 pandoc）： pandoc hello.md -o hello.docx
+#  - 在 Linux/WSL/macOS 上產生 base64： base64 hello.docx > hello.docx.base64
+#  - 在 Windows (PowerShell) 上產生 base64： 
+#      [Convert]::ToBase64String([IO.File]::ReadAllBytes('hello.docx')) | Out-File -Encoding ascii hello.docx.base64
+#
+# 範例（此範例並非有效 docx 的完整 base64，僅示意）：
+REPLACE_ME_BASE64
